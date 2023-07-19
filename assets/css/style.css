@@ -26,7 +26,9 @@ h2 {
     text-align: center;
 }
 
-/* Start Navbar */
+/*---------------------------------
+---------- START NAVBAR -----------
+---------------------------------*/
 .bg-green{
     background-color: var(--secondary-color);
 }
@@ -35,4 +37,128 @@ nav ul li a{
     text-transform: uppercase;
     font-size: var(--menu-font-size)!important;
 }
-/* End Navbar */
+/*---------------------------------
+---------- END NAVBAR -----------
+---------------------------------*/
+
+.banner-image {
+    background-image: url('../img/banner-img.jpg');
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+/*---------------------------------
+------ START SECTION ABOUT --------
+---------------------------------*/
+.section-about .row {
+    position: relative;
+    bottom: 100px;
+}
+
+.section-about .img-profile{
+    width: 100%;
+}
+
+.section-about .profile-title{
+    font-size: 36px;
+    line-height: 1.1;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.profile-position {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.1;
+    margin-bottom: 0;
+}
+
+.profile-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.profile-list .title {
+    width: 100px;
+    display: block;
+    float: left;
+    color: #333333;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.profile-list .cont {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #9da0a7;
+}
+
+.profile-list li {
+    margin-bottom: 13px;
+}
+
+.profile-social{
+    background-color: var(--secondary-color);
+}
+
+.profile-social .social{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.profile-social .social li {
+    display: inline-block;
+    margin: 5px 15px;
+}
+
+.profile-social .social li a {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+    -webkit-transition: -webkit-transition, background-color 0.25s linear 0s;
+    -moz-transition: -moz-transition, background-color 0.25s linear 0s;
+    transition: transition, background-color 0.25s linear 0s;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.profile-social .social li a:hover {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.1); 
+}
+
+.profile-social .social li a .rsicon {
+    color: #fff;
+    font-size: 20px;
+    line-height: 45px;
+    display: block;
+}
+
+.section-about .section-txt-btn {
+    color: #000;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.8;
+    text-align: center;
+    margin-top: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+}   
+/*---------------------------------
+------- END SECTION ABOUT ---------
+---------------------------------*/
