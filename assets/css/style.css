@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Raleway:wght@300;500&family=Roboto:wght@300;500&display=swap');
+
+:root{
+    --menu-font-size: 14px;
+    --primary-color:#13547a;
+    --secondary-color:#80d0c7;
+    --white-color:#ffffff;
+    --section-bg-color: #f0f8ff;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #efefef;
+}
+
+a {
+    text-decoration: underline;
+    color: var(--secondary-color);
+}
+
+h2 {
+    color: #3d4451!important;
+    font-size: 38px!important;
+    line-height: 1.2;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* Start Navbar */
+.bg-green{
+    background-color: var(--secondary-color);
+}
+
+nav ul li a{
+    text-transform: uppercase;
+    font-size: var(--menu-font-size)!important;
+}
+/* End Navbar */
