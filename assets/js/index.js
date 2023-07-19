@@ -34,5 +34,17 @@
         }
     }
     document.addEventListener('scroll', callbackFunc, true);
+
+
+    const test = document.querySelectorAll(".parent");
+    for(let i=0;i<test.length;i++){
+      test[i].addEventListener("mouseover", function(e){
+        test[i].childNodes[3].classList.add("d-flex","flex-column","align-items-center","justify-content-center");
+      });
+    
+      test[i].addEventListener("mouseout", function(e){
+        test[i].childNodes[3].classList.remove("d-flex","flex-column","align-items-center","justify-content-center");
+      });
+    }
 })();
  
